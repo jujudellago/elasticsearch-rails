@@ -16,7 +16,7 @@
 # Usage:
 # ------
 #
-#     $ rails new searchapp --skip --skip-bundle --template https://raw.githubusercontent.com/elasticsearch/elasticsearch-rails/master/elasticsearch-rails/lib/rails/templates/01-basic.rb
+#     $ rails new searchapp --skip --skip-bundle --template https://raw.githubusercontent.com/jujudellago/elasticsearch-rails/master/elasticsearch-rails/lib/rails/templates/01-basic.rb
 #
 # =====================================================================================================
 

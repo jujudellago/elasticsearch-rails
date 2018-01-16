@@ -1,4 +1,4 @@
-#     $ rails new searchapp --skip --skip-bundle --template https://raw.github.com/elasticsearch/elasticsearch-rails/master/elasticsearch-rails/lib/rails/templates/03-expert.rb
+#     $ rails new searchapp --skip --skip-bundle --template https://raw.github.com/jujudellago/elasticsearch-rails/master/elasticsearch-rails/lib/rails/templates/03-expert.rb
 
 unless File.read('README.md').include? '## [2] Pretty'
   say_status  "ERROR", "You have to run the 01-basic.rb and 02-pretty.rb templates first.", :red
@@ -290,7 +290,7 @@ get 'https://raw.githubusercontent.com/elastic/elasticsearch-rails/master/elasti
 
 remove_file 'db/seeds.rb'
 # copy_file File.expand_path('../seeds.rb', __FILE__), 'db/seeds.rb'
-get 'https://raw.githubusercontent.com/elastic/elasticsearch-rails/master/elasticsearch-rails/lib/rails/templates/seeds.rb', 'db/seeds.rb'
+get 'https://raw.githubusercontent.com/jujudellago/elasticsearch-rails/master/elasticsearch-rails/lib/rails/templates/seeds.rb', 'db/seeds.rb'
 
 rake "db:reset"
 rake "environment elasticsearch:import:model CLASS='Article' BATCH=100 FORCE=y"

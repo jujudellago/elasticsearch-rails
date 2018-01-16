@@ -1,4 +1,4 @@
-# $ rails new searchapp --skip --skip-bundle --template https://raw.githubusercontent.com/elasticsearch/elasticsearch-rails/master/elasticsearch-rails/lib/rails/templates/02-pretty.rb
+# $ rails new searchapp --skip --skip-bundle --template https://raw.githubusercontent.com/jujudellago/elasticsearch-rails/master/elasticsearch-rails/lib/rails/templates/02-pretty.rb
 
 unless File.read('README.md').include? '## [1] Basic'
   say_status  "ERROR", "You have to run the 01-basic.rb template first.", :red
