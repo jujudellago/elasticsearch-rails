@@ -16,11 +16,12 @@
 # Usage:
 # ------
 #
-#     $ rails new searchapp --skip --skip-bundle --template https://raw.github.com/elasticsearch/elasticsearch-rails/master/elasticsearch-rails/lib/rails/templates/01-basic.rb
+#     $ rails new searchapp --skip --skip-bundle --template https://raw.githubusercontent.com/elasticsearch/elasticsearch-rails/master/elasticsearch-rails/lib/rails/templates/01-basic.rb
 #
 # =====================================================================================================
 
 require 'uri'
+require 'json'
 require 'net/http'
 
 at_exit do
